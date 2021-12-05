@@ -1,0 +1,9 @@
+The OLEDB libraries allow interaction with a number of target data files (including text, CSV, Excel, and Access) via a subset of SQL. This has advantages in both speed and in efficiencies in file handling without fully loading the file into memory at any given time.
+
+Pre Requisites: 
+1.) Microsoft Office Access Database Engine - Installed 
+2.) 'Data – OLEDB' & 'Utility - File Management' Object VBO
+
+Connection String
+"Provider=Microsoft.ACE.OLEDB.12.0;Data Source="&[Data1]&";Extended Properties='Excel 12.0 Xml;HDR=YES';"    
+(Date1 = "C:\Users\It's.Nill\Desktop\OLEDBFile.xlsx")
